@@ -1,0 +1,15 @@
+algorithm,n,seconds,comparisons
+max_min,100,6.7e-05,162
+merge_sort,100,0.000355,
+quick_sort_random_pivot,100,0.000283,713
+max_min,500,0.000251,754
+merge_sort,500,0.001179,
+quick_sort_random_pivot,500,0.001533,5051
+max_min,1000,0.000491,1510
+merge_sort,1000,0.002575,
+quick_sort_random_pivot,1000,0.004104,11385
+max_min,2000,0.001017,3022
+merge_sort,2000,0.00606,
+quick_sort_random_pivot,2000,0.007606,23651
+
+Times are environment-specific. Re-run locally for your own measurements.

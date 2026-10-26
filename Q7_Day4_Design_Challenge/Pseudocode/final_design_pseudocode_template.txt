@@ -1,0 +1,9 @@
+# Fill in after both independent proposals and comparison are complete.
+# The assignment's Q7 challenge statement must be obtained from the class/LMS if it
+# was provided separately. Do not invent the original challenge problem.
+PROPOSED_D_AND_C()
+  identify base case
+  divide input into smaller subproblems
+  solve subproblems recursively
+  combine their returned information
+  return final result

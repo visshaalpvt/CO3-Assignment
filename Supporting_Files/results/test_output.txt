@@ -1,0 +1,7 @@
+PASS Q1 Max/Min and Binary Search
+PASS Q2 Merge Sort and Quick Sort
+PASS Q3 Karatsuba multiplication
+PASS Q4 Strassen matches conventional multiplication
+PASS Q5 closest pair matches brute force
+PASS Q6 Median of Medians, QuickSelect, Meet-in-the-Middle
+Q7 intentionally requires the missing Day-4 challenge prompt and genuine independent proposals.

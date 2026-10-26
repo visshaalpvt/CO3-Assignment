@@ -1,0 +1,1 @@
+No screenshots are fabricated. After running each question's code, capture genuine terminal output and, if requested, source code. Save images in each question's Output_Screenshots directory using clear filenames. Q7 screenshots should only be added after the real challenge is implemented.

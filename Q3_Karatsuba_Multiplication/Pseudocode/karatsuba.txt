@@ -1,0 +1,9 @@
+KARATSUBA(x, y)
+  if x or y is small: return x*y
+  m = ceil(max(number_of_digits(x), number_of_digits(y))/2)
+  B = 10^m
+  x = a*B+b; y = c*B+d
+  z0 = KARATSUBA(b,d)
+  z2 = KARATSUBA(a,c)
+  z1 = KARATSUBA(a+b,c+d)-z2-z0
+  return z2*B^(2m)+z1*B^m+z0

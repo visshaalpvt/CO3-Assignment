@@ -1,0 +1,8 @@
+SUBSET_SUM_MITM(A,target)
+  split A into L and R
+  enumerate all subset sums SL and SR
+  sort SR
+  for each s in SL:
+      binary-search target-s in SR
+      if found: return witness subset
+  return no solution

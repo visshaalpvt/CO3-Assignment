@@ -1,0 +1,7 @@
+CLOSEST_PAIR(P)
+  sort P by x; preserve y-sorted order
+  recursively solve left and right halves
+  d = min(left_distance, right_distance)
+  strip = points within d of split line, ordered by y
+  compare each strip point with at most next 7 candidates
+  return best pair and distance

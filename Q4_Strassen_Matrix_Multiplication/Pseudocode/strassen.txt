@@ -1,0 +1,6 @@
+STRASSEN(A,B)
+  if n <= cutoff: return conventional_multiply(A,B)
+  split each matrix into four equal blocks
+  compute seven products M1..M7
+  reconstruct C11,C12,C21,C22 from M1..M7
+  combine four blocks into C and return

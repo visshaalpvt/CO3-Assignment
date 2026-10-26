@@ -1,0 +1,7 @@
+SELECT(A,k)
+  if length(A) <= 5: sort A; return A[k]
+  divide A into groups of at most 5
+  sort each group and collect its median
+  pivot = SELECT(medians, middle index)
+  partition A into less/equal/greater than pivot
+  recurse only into partition containing k
